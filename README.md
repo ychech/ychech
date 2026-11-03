@@ -1,10 +1,13 @@
 <div align="center">
 
-<!-- 头图：AI 生成 + 标题合成 -->
-<img src="assets/header.jpg?v=1" width="100%" />
+
 
 <!-- 会动的终端 -->
 <img src="assets/terminal.svg?v=3" width="560" />
+
+
+<!-- 头图：AI 生成 + 标题合成 -->
+<img src="assets/header.jpg?v=1" width="100%" />
 
 逸尘（ychech）——白天搞安全攻防，晚上烧 token，让 AI 替我打工。
 
@@ -16,7 +19,7 @@
 
 ---
 
-### 做过的东西
+### 有的东西
 
 | 项目 | 一句话 |
 |---|---|
@@ -26,9 +29,7 @@
 | 💬 [**YC-AIchat**](https://github.com/ychech/YC-AIchat) | AI 对话应用 |
 | 💎 [**YC-YPEG**](https://github.com/ychech/YC-YPEG) | 《逸尘的黑金钻石 PE 指南》 |
 
-### 连续提交
 
-<img src="https://streak-stats.demolab.com?user=ychech&theme=radical&hide_border=true&background=0D1117" height="165" />
 
 ### 贪吃蛇
 
