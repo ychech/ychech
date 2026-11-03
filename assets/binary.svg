@@ -1,17 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150">
   <defs>
-    <linearGradient id="rain" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#36BCF7"/>
-      <stop offset="0.5" stop-color="#8A2BE2"/>
-      <stop offset="1" stop-color="#FF2E97"/>
+    <linearGradient id="tg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c544d"/>
+      <stop offset="0.45" stop-color="#4bf2de"/>
+      <stop offset="0.75" stop-color="#2a9d8f"/>
+      <stop offset="1" stop-color="#123f39"/>
     </linearGradient>
+    <filter id="rblur"><feGaussianBlur stdDeviation="40"/></filter>
     <filter id="rglow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="2" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
-  <g font-family="'Courier New', monospace" font-size="13" fill="url(#rain)" filter="url(#rglow)">
+  <rect width="900" height="150" fill="#0b1917"/>
+
+  <!-- 三团漂移光斑：紫 / 黄 / 蓝紫（对应原版 blobs 配置） -->
+  <circle cx="810" cy="30" r="80" fill="#dc65ec" opacity="0.5" filter="url(#rblur)">
+    <animate attributeName="cx" values="810;770;810" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="30;55;30" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="500" cy="90" r="45" fill="#e7d341" opacity="0.4" filter="url(#rblur)">
+    <animate attributeName="cx" values="500;540;500" dur="11s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="90;70;90" dur="11s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="430" cy="160" r="85" fill="#8793e9" opacity="0.45" filter="url(#rblur)">
+    <animate attributeName="cy" values="160;130;160" dur="13s" repeatCount="indefinite"/>
+  </circle>
+
+  <g font-family="'Courier New', monospace" font-size="13" fill="url(#tg)" filter="url(#rglow)">
     <!-- 每行二进制流横向滚动，相邻行方向相反 -->
     <g opacity="0.7">
       <text x="0" y="22">01101000011010010100000101001110010001010111001001110100011010000110111101101110010000010100111001000101011100100111010001</text>
@@ -51,6 +68,6 @@
   </g>
 
   <!-- 中央标题盖在数据流上 -->
-  <rect x="310" y="52" width="280" height="46" rx="23" fill="#0d1117" opacity="0.85" stroke="#30363d"/>
-  <text x="450" y="82" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" font-weight="700" fill="url(#rain)" filter="url(#rglow)">⌨ 0 1 世 界</text>
+  <rect x="310" y="52" width="280" height="46" rx="23" fill="#0b1917" opacity="0.85" stroke="#1f4a43"/>
+  <text x="450" y="82" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" font-weight="700" fill="#4bf2de" filter="url(#rglow)">⌨ 0 1 世 界</text>
 </svg>
