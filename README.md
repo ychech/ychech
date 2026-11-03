@@ -21,31 +21,32 @@
 
 ---
 
+<img src="assets/binary.svg" width="100%" />
+
+---
+
 ### 🚀 代 表 作
 
-[![PlotPilot](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=ychech&repo=PlotPilot&theme=radical)](https://github.com/ychech/PlotPilot)
-[![YC-AIchat](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=ychech&repo=YC-AIchat&theme=radical)](https://github.com/ychech/YC-AIchat)
+| 项目 | 简介 | ⭐ |
+|---|---|---|
+| 🏆 [**ARTEX1**](https://github.com/ychech/ARTEX1) | AI 自主渗透测试系统 · 攻防挑战赛冠军项目 | ![](https://img.shields.io/github/stars/ychech/ARTEX1?style=flat&color=FF2E97&labelColor=0d1117) |
+| 🎙 [**interview-recording-platform**](https://github.com/ychech/interview-recording-platform) | 学生访谈录音分析平台（FastAPI + ASR + LLM） | ![](https://img.shields.io/github/stars/ychech/interview-recording-platform?style=flat&color=FF2E97&labelColor=0d1117) |
+| 🧭 [**PlotPilot**](https://github.com/ychech/PlotPilot) | 【墨枢】作者的领航员 | ![](https://img.shields.io/github/stars/ychech/PlotPilot?style=flat&color=FF2E97&labelColor=0d1117) |
+| 💬 [**YC-AIchat**](https://github.com/ychech/YC-AIchat) | AI 对话应用 | ![](https://img.shields.io/github/stars/ychech/YC-AIchat?style=flat&color=FF2E97&labelColor=0d1117) |
+| 💎 [**YC-YPEG**](https://github.com/ychech/YC-YPEG) | 《逸尘的黑金钻石PE指南》 | ![](https://img.shields.io/github/stars/ychech/YC-YPEG?style=flat&color=FF2E97&labelColor=0d1117) |
 
 ---
 
 ### 📊 战 绩
 
-<img src="https://github-readme-stats.vercel.app/api?username=ychech&show_icons=true&theme=radical&hide_border=true&count_private=true&bg_color=0d1117" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ychech&layout=compact&theme=radical&hide_border=true&bg_color=0d1117" height="165" />
+<img src="https://raw.githubusercontent.com/ychech/ychech/output/stats.svg" height="190" />
+<img src="https://raw.githubusercontent.com/ychech/ychech/output/langs.svg" height="190" />
+
+---
+
+### 🔥 连 续 提 交
 
 <img src="https://streak-stats.demolab.com?user=ychech&theme=radical&hide_border=true&background=0D1117" height="165" />
-
----
-
-### 📈 活 跃 曲 线
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ychech&bg_color=0d1117&color=79c0ff&line=8A2BE2&point=FF2E97&area=true&area_color=36BCF7&hide_border=true" width="100%" />
-
----
-
-### 🏆 成 就 墙
-
-<img src="https://github-profile-trophy.vercel.app/?username=ychech&theme=radical&no-frame=true&row=1&column=6&bg_color=0d1117" width="100%" />
 
 ---
 
@@ -59,12 +60,6 @@
 
 ---
 
-### 🎲 随 机 箴 言
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" width="600" />
-
----
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=90&section=footer" width="100%" />
+<img src="assets/footer.svg" width="100%" />
 
 </div>

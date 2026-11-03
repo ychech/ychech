@@ -1,4 +1,4 @@
-name: generate snake
+name: generate snake + stats
 
 on:
   schedule:
@@ -24,7 +24,12 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      - name: push snake to output branch
+      - name: generate neon stats cards
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/gen_stats.py
+
+      - name: push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
