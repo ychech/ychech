@@ -37,10 +37,7 @@
 
 ---
 
-### 📊 战 绩
 
-<img src="https://raw.githubusercontent.com/ychech/ychech/output/stats.svg" height="190" />
-<img src="https://raw.githubusercontent.com/ychech/ychech/output/langs.svg" height="190" />
 
 ---
 
