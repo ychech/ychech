@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b2e"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#36BCF7"/>
+      <stop offset="0.5" stop-color="#8A2BE2"/>
+      <stop offset="1" stop-color="#FF2E97"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="45"/></filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="300" fill="url(#bg)"/>
+
+  <!-- 网格背景 -->
+  <g stroke="#1e2a4a" stroke-width="0.6" opacity="0.5">
+    <line x1="0" y1="60" x2="900" y2="60"/><line x1="0" y1="120" x2="900" y2="120"/>
+    <line x1="0" y1="180" x2="900" y2="180"/><line x1="0" y1="240" x2="900" y2="240"/>
+    <line x1="150" y1="0" x2="150" y2="300"/><line x1="300" y1="0" x2="300" y2="300"/>
+    <line x1="450" y1="0" x2="450" y2="300"/><line x1="600" y1="0" x2="600" y2="300"/>
+    <line x1="750" y1="0" x2="750" y2="300"/>
+  </g>
+
+  <!-- 漂浮光斑 -->
+  <circle cx="140" cy="90" r="95" fill="#8A2BE2" opacity="0.35" filter="url(#blur)">
+    <animate attributeName="cy" values="90;125;90" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="770" cy="215" r="105" fill="#36BCF7" opacity="0.3" filter="url(#blur)">
+    <animate attributeName="cy" values="215;180;215" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="470" cy="45" r="65" fill="#FF2E97" opacity="0.28" filter="url(#blur)">
+    <animate attributeName="cy" values="45;70;45" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- 闪烁星星 -->
+  <g fill="#ffffff">
+    <circle cx="90" cy="40" r="1.5"><animate attributeName="opacity" values="1;0.1;1" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="240" cy="250" r="1.2"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="640" cy="35" r="1.5"><animate attributeName="opacity" values="1;0.15;1" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="850" cy="90" r="1.2"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="720" cy="270" r="1.5"><animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- 故障重影（青/品红错位闪烁） -->
+  <text x="446" y="152" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="78" font-weight="800" fill="#FF2E97" opacity="0" letter-spacing="10">YCHECH
+    <animate attributeName="opacity" values="0;0;0.7;0;0.5;0;0" keyTimes="0;0.52;0.55;0.58;0.61;0.64;1" dur="4s" repeatCount="indefinite"/>
+  </text>
+  <text x="454" y="152" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="78" font-weight="800" fill="#36BCF7" opacity="0" letter-spacing="10">YCHECH
+    <animate attributeName="opacity" values="0;0;0.7;0;0.5;0;0" keyTimes="0;0.62;0.65;0.68;0.71;0.74;1" dur="4s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- 主标题 -->
+  <text x="450" y="150" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="78" font-weight="800" fill="url(#neon)" filter="url(#glow)" letter-spacing="10">YCHECH</text>
+
+  <!-- 分割线 -->
+  <line x1="280" y1="195" x2="620" y2="195" stroke="url(#neon)" stroke-width="2" opacity="0.8">
+    <animate attributeName="x1" values="280;330;280" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="620;570;620" dur="5s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- 副标题 -->
+  <text x="450" y="235" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="22" fill="#8b949e">逸 尘 · Code / AI / Fun</text>
+</svg>

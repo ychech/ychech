@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="210" viewBox="0 0 720 210">
+  <defs>
+    <filter id="twin-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- 终端窗口 -->
+  <rect x="1" y="1" width="718" height="208" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <rect x="1" y="1" width="718" height="36" rx="14" fill="#161b27"/>
+  <rect x="1" y="22" width="718" height="15" fill="#161b27"/>
+
+  <circle cx="28" cy="19" r="6" fill="#ff5f56"/>
+  <circle cx="48" cy="19" r="6" fill="#ffbd2e"/>
+  <circle cx="68" cy="19" r="6" fill="#27c93f"/>
+  <text x="360" y="24" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#8b949e">ychech@github: ~</text>
+
+  <!-- $ whoami -->
+  <text x="30" y="70" font-family="Consolas, monospace" font-size="15" fill="#7ee787" filter="url(#twin-glow)">&gt; whoami
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.05;0.15;1" dur="7s" repeatCount="indefinite"/>
+  </text>
+  <text x="130" y="70" font-family="Consolas, monospace" font-size="15" fill="#e6edf3">逸尘 (ychech)
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.18;0.28;1" dur="7s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- $ status -->
+  <text x="30" y="105" font-family="Consolas, monospace" font-size="15" fill="#7ee787" filter="url(#twin-glow)">&gt; status --now
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.32;0.42;1" dur="7s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- token 生成中 -->
+  <g filter="url(#twin-glow)">
+    <text x="130" y="105" font-family="Consolas, monospace" font-size="15" fill="#79c0ff" opacity="0">token 生成中
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.45;0.55;1" dur="7s" repeatCount="indefinite"/>
+    </text>
+    <text x="252" y="105" font-family="Consolas, monospace" font-size="15" fill="#79c0ff" opacity="0">.
+      <animate attributeName="opacity" values="0;0;0;1;0;0" keyTimes="0;0.55;0.60;0.63;0.75;1" dur="7s" repeatCount="indefinite"/>
+    </text>
+    <text x="252" y="105" font-family="Consolas, monospace" font-size="15" fill="#79c0ff" opacity="0">. .
+      <animate attributeName="opacity" values="0;0;0;1;0;0" keyTimes="0;0.63;0.68;0.71;0.75;1" dur="7s" repeatCount="indefinite"/>
+    </text>
+    <text x="252" y="105" font-family="Consolas, monospace" font-size="15" fill="#79c0ff" opacity="0">. . .
+      <animate attributeName="opacity" values="0;0;0;1;0;0" keyTimes="0;0.71;0.76;0.79;0.88;1" dur="7s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- 光标 -->
+  <rect x="30" y="150" width="10" height="18" fill="#7ee787" filter="url(#twin-glow)">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <text x="52" y="164" font-family="Consolas, monospace" font-size="14" fill="#8b949e" opacity="0">ships daily 🚀
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.80;0.90;1" dur="7s" repeatCount="indefinite"/>
+  </text>
+</svg>
