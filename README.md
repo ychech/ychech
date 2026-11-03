@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- 头图：电影感二进制雨（逐帧渲染） -->
-<img src="assets/header.gif?v=1" width="100%" />
+<!-- 头图：AI 生成 + 标题合成 -->
+<img src="assets/header.jpg?v=1" width="100%" />
 
 <!-- 会动的终端 -->
 <img src="assets/terminal.svg?v=3" width="560" />
