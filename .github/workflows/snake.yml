@@ -16,6 +16,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
       - name: generate snake.svg
         uses: Platane/snk/svg-only@v3
         with:
