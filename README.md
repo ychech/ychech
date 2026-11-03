@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- 霓虹故障风头图 -->
-<img src="assets/header.svg" width="100%" />
+<img src="assets/header.svg?v=3" width="100%" />
 
 <!-- 会动的终端 -->
-<img src="assets/terminal.svg" width="580" />
+<img src="assets/terminal.svg?v=3" width="580" />
 
 <!-- 徽章墙 -->
 [![GitHub followers](https://img.shields.io/github/followers/ychech?style=for-the-badge&logo=github&color=8A2BE2)](https://github.com/ychech)
@@ -21,7 +21,7 @@
 
 ---
 
-<img src="assets/binary.svg" width="100%" />
+<img src="assets/binary.svg?v=2" width="100%" />
 
 ---
 
@@ -60,6 +60,6 @@
 
 ---
 
-<img src="assets/footer.svg" width="100%" />
+<img src="assets/footer.svg?v=2" width="100%" />
 
 </div>
