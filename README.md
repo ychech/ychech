@@ -1,9 +1,8 @@
 <div align="center">
 
-<!-- 头图：AI 生成数字雨 · 无缝循环 GIF -->
-<img src="assets/hero.gif?v=1" width="100%" />
 
-逸尘（ychech）——白天搞安全攻防，晚上烧 token，让 AI 替我打工。
+
+逸尘（ychech）——白天研究，晚上烧 token，让 AI 替我打工。
 
 [![followers](https://img.shields.io/github/followers/ychech?style=flat-square&logo=github&color=14b8a6&labelColor=0d1117)](https://github.com/ychech)
 [![stars](https://img.shields.io/github/stars/ychech?affiliations=OWNER&style=flat-square&logo=github&color=8b5cf6&labelColor=0d1117)](https://github.com/ychech?tab=repositories)
