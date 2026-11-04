@@ -10,8 +10,6 @@
 [![stars](https://img.shields.io/github/stars/ychech?affiliations=OWNER&style=flat-square&logo=github&color=8b5cf6&labelColor=0d1117)](https://github.com/ychech?tab=repositories)
 ![visitors](https://komarev.com/ghpvc/?username=ychech&style=flat-square&color=2dd4bf&labelColor=0d1117)
 
-### 一些仓库好玩的东西
-
 | 项目 | 一句话 |
 |---|---|
 | 🏆 [**ARTEX1**](https://github.com/ychech/ARTEX1) | AI 自主渗透测试系统，攻防挑战赛冠军项目 |
@@ -19,8 +17,6 @@
 | 🧭 [**PlotPilot**](https://github.com/ychech/PlotPilot) | 【墨枢】作者的领航员 |
 | 💬 [**YC-AIchat**](https://github.com/ychech/YC-AIchat) | AI 对话应用 |
 | 💎 [**YC-YPEG**](https://github.com/ychech/YC-YPEG) | 《逸尘的黑金钻石 PE 指南》 |
-
-### 贪吃蛇
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ychech/ychech/output/github-snake-dark.svg" />
