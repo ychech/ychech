@@ -3,7 +3,7 @@
 
 
 <!-- 会动的终端 -->
-<img src="assets/terminal.svg?v=3" width="560" />
+<img src="assets/terminal.svg?v=4" width="560" />
 
 
 <!-- 头图：AI 生成 + 标题合成 -->
